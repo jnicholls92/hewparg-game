@@ -50,7 +50,7 @@ module.exports = {
           name: 'hewparg-game'
         },
         prerelease: false,
-        draft: true,
+        draft: false,
         authToken: process.env.GITHUB_TOKEN
       }
     }
