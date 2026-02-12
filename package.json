@@ -1,5 +1,5 @@
 {
-  "name": "game-development",
+  "name": "hewprg-game",
   "version": "1.0.1",
   "description": "My Game",
   "main": "application.js",
@@ -19,6 +19,7 @@
   "dependencies": {
     "dotenv": "^17.3.0",
     "electron-squirrel-startup": "^1.0.1",
+    "path": "^0.12.7",
     "update-electron-app": "^3.1.2"
   },
   "devDependencies": {
@@ -32,5 +33,9 @@
     "@electron-forge/publisher-github": "^7.11.1",
     "@electron/fuses": "^1.8.0",
     "electron": "^40.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnicholls92/hewparg-game.git"
   }
 }
