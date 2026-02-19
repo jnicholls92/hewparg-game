@@ -53,3 +53,7 @@ app.on('window-all-closed', function () {
         app.quit();
     }
 });
+
+setInterval(() => {
+    autoUpdater.checkForUpdates();
+}, 10 * 60 * 1000)
