@@ -1,9 +1,10 @@
 {
   "name": "hewprg-game",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "My Game",
   "main": "application.js",
   "scripts": {
+    "dev": "electron .",
     "start": "electron-forge start",
     "package": "electron-forge package",
     "make": "electron-forge make",
