@@ -1,42 +1,21 @@
 {
-  "name": "hewprg-game",
-  "version": "1.0.4",
-  "description": "My Game",
-  "main": "application.js",
+  "name": "hewparg-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "electron .",
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make",
-    "publish": "electron-forge publish"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Jamie Nicholls",
-    "email": "nicholls_jamie@outlook.com"
-  },
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "dotenv": "^17.3.0",
-    "electron-squirrel-startup": "^1.0.1",
-    "path": "^0.12.7",
-    "update-electron-app": "^3.1.2"
-  },
-  "devDependencies": {
-    "@electron-forge/cli": "^7.11.1",
-    "@electron-forge/maker-deb": "^7.11.1",
-    "@electron-forge/maker-rpm": "^7.11.1",
-    "@electron-forge/maker-squirrel": "^7.11.1",
-    "@electron-forge/maker-zip": "^7.11.1",
-    "@electron-forge/plugin-auto-unpack-natives": "^7.11.1",
-    "@electron-forge/plugin-fuses": "^7.11.1",
-    "@electron-forge/publisher-github": "^7.11.1",
-    "@electron/fuses": "^1.8.0",
-    "electron": "^40.4.0"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jnicholls92/hewparg-game.git"
-  }
+    "url": "git+https://github.com/jnicholls92/hewparg-game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jnicholls92/hewparg-game/issues"
+  },
+  "homepage": "https://github.com/jnicholls92/hewparg-game#readme"
 }
